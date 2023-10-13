@@ -1,16 +1,14 @@
+import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
-        String x = "water";
-        String y = "sugar";
+        Scanner scanner = new Scanner(System.in);
 
-        String temp; //used to temporarly store variable to swap values
+        System.out.println("what is your name? ");
+        String name = scanner.nextLine();
 
-        temp = x;
-        x = y;
-        y = temp;
+        System.out.println("Hello " + name );
 
-        System.out.println("x: " + x);
-        System.out.println("y: " + y);
+
 
 
     }
